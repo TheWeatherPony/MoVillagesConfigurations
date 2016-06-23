@@ -1,10 +1,11 @@
-auto mutation;makes all biome mutations auto-register to redirect to their non-mutation versions. Must be absolute first line to work.
-;please be aware that "auto mutation" can potentially cause unrelated biomes to connect if biomes are configured poorly. 
 ;everything after a ";" is a comment
 
 Extreme Hills
 	Extreme Hills Edge
 	Extreme Hills+
+	Extreme Hills mutation
+	Extreme Hills Edge mutation
+	Extreme Hills+ mutation
 
 Swampland
 	Swampland mutation
@@ -12,35 +13,54 @@ Swampland
 Jungle
 	JungleHills
 	JungleEdge
+	Jungle mutation
+	JungleHills mutation
+	JungleEdge mutation
 
 Forest
 	ForestHills
 
 Birch Forest
 	Birch Forest Hills
-
+	Birch Forest mutation
+	Birch Forest Hills mutation
+	
 Taiga
+	Taiga mutation
 
 Mega Taiga
 	TaigaHills
+	Mega Taiga Hills
+
+Redwood Taiga Hills M; aka: Mega Taiga Hills mutation
+
+Mega Spruce Taiga; aka: Mega Taiga mutation
 
 Cold Taiga
 	Cold Taiga Hills
+	Cold Taiga mutation
 
 Savanna
 	Savanna Plateau
+	Savanna mutation
+	Savanna Plateau mutation
 
 Ice Plains
 	Ice Mountains
-
+	Ice Plains mutation
+	
 Roofed Forest
+	Roofed Forest mutation
 
 MushroomIsland
 	MushroomIslandShore
 
 Mesa
-	Mesa Plateau F
 	Mesa Plateau
+	Mesa Plateau F
+	Mesa mutation
+	Mesa Plateau mutation
+	Mesa Plateau F mutation
 
 Ocean
 	FrozenOcean
