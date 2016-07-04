@@ -1,67 +1,67 @@
 ;everything after a ";" is a comment
 
-Extreme Hills
-	Extreme Hills Edge
-	Extreme Hills+
-	Extreme Hills mutation
-	Extreme Hills Edge mutation
-	Extreme Hills+ mutation
+minecraft:extreme_hills
+	minecraft:smaller_extreme_hills;Extreme Hills Edge;removed from normal World generation in 13w36a
+	minecraft:extreme_hills_with_trees;Extreme Hills+
+	minecraft:extreme_hills mutation
+	minecraft:smaller_extreme_hills mutation
+	minecraft:extreme_hills_with_trees mutation
 
-Swampland
-	Swampland mutation
+minecraft:swampland
+	minecraft:swampland mutation
 
-Jungle
-	JungleHills
-	JungleEdge
-	Jungle mutation
-	JungleHills mutation
-	JungleEdge mutation
+minecraft:jungle
+	minecraft:jungle_hills
+	minecraft:jungle_edge
+	minecraft:jungle mutation
+	minecraft:jungle_hills mutation
+	minecraft:jungle_edge mutation
 
-Forest
-	ForestHills
+minecraft:forest
+	minecraft:forest_hills
 
-Birch Forest
-	Birch Forest Hills
-	Birch Forest mutation
-	Birch Forest Hills mutation
+minecraft:birch_forest
+	minecraft:birch_forest_hills
+	minecraft:birch_forest mutation
+	minecraft:birch_forest_hills mutation
 	
-Taiga
-	Taiga mutation
+minecraft:taiga
+	minecraft:taiga mutation
 
-Mega Taiga
-	TaigaHills
-	Mega Taiga Hills
+minecraft:redwood_taiga;Mega Taiga
+	minecraft:taiga_hills;TaigaHills
 
-Redwood Taiga Hills M; aka: Mega Taiga Hills mutation
+minecraft:redwood_taiga_hills;Mega Taiga Hills
+	minecraft:mutated_redwood_taiga_hills;Redwood Taiga Hills M; aka: Mega Taiga Hills mutation
 
-Mega Spruce Taiga; aka: Mega Taiga mutation
+minecraft:mutated_redwood_taiga;minecraft:redwood_taiga mutation;Mega Spruce Taiga; aka: Mega Taiga mutation
 
-Cold Taiga
-	Cold Taiga Hills
-	Cold Taiga mutation
+minecraft:taiga_cold
+	minecraft:taiga_cold_hills
+	minecraft:taiga_cold mutation
 
-Savanna
-	Savanna Plateau
-	Savanna mutation
-	Savanna Plateau mutation
+minecraft:savanna
+	minecraft:savanna_rock;Savanna Plateau
+	minecraft:savanna mutation
+	minecraft:savanna_rock
 
-Ice Plains
-	Ice Mountains
-	Ice Plains mutation
+minecraft:ice_flats;Ice Plains
+	minecraft:ice_mountains
+	minecraft:ice_flats mutation
 	
-Roofed Forest
-	Roofed Forest mutation
+minecraft:roofed_forest
+	minecraft:roofed_forest mutation
 
-MushroomIsland
-	MushroomIslandShore
+minecraft:mushroom_island
+	minecraft:mushroom_island_shore
 
-Mesa
-	Mesa Plateau
-	Mesa Plateau F
-	Mesa mutation
-	Mesa Plateau mutation
-	Mesa Plateau F mutation
+minecraft:mesa
+	minecraft:mesa_clear_rock;Mesa Plateau
+	minecraft:mesa_rock;Mesa Plateau F
+	minecraft:mesa mutation
+	minecraft:mesa_clear_rock mutation
+	minecraft:mesa_rock mutation
 
-Ocean
-	FrozenOcean
-	Deep Ocean
+minecraft:ocean
+	minecraft:frozen_ocean;FrozenOcean;removed from normal World generation in 13w36a
+	minecraft:deep_ocean

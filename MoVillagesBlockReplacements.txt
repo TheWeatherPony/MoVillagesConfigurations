@@ -2,7 +2,7 @@
 ;list mod names required seperated by a comma. "minecraft" will always be loaded. does not need to be followed by a biome. starts defaulted to "minecraft"
 	;biome
 		;behaviors (in order)
-	Extreme Hills
+	minecraft:extreme_hills
 		minecraft:cobblestone -> minecraft:stone
 		minecraft:log -> minecraft:double_stone_slab
 		minecraft:planks -> minecraft:stonebrick
@@ -10,62 +10,62 @@
 		minecraft:stone_brick_stairs -> minecraft:stone_stairs meta keep
 		minecraft:gravel -> minecraft:brick_block
 		minecraft:wool -> meta 14
-	Swampland
+	minecraft:swampland
 		minecraft:gravel -> minecraft:clay
 		minecraft:wool -> meta 13
-	Jungle
+	minecraft:jungle
 		minecraft:oak_stairs -> minecraft:jungle_stairs meta keep
 		minecraft:cobblestone -> minecraft:mossy_cobblestone
 		minecraft:gravel -> minecraft:stonebrick
 		minecraft:planks -> meta 3
 		minecraft:log -> meta 3
 		minecraft:wool -> meta 5
-	Forest
+	minecraft:forest
 		minecraft:gravel -> minecraft:planks
 		minecraft:wool -> meta 8
-	Birch Forest
+	minecraft:birch_forest
 		minecraft:gravel -> minecraft:planks
 		minecraft:oak_stairs -> minecraft:birch_stairs meta keep
 		minecraft:planks -> meta 2
 		minecraft:log -> meta 2
 		minecraft:wool -> meta 0
 		minecraft:gravel -> meta 1
-	Taiga
+	minecraft:taiga
 		minecraft:oak_stairs -> minecraft:spruce_stairs meta keep
 		minecraft:planks -> meta 1
 		minecraft:log -> meta 1
 		minecraft:wool -> meta 12
-	Mega Taiga
+	minecraft:redwood_taiga;Mega Taiga
 		minecraft:cobblestone -> minecraft:mossy_cobblestone
-		use Taiga
-	Cold Taiga
+		use minecraft:taiga
+	minecraft:taiga_cold
 		minecraft:oak_stairs -> minecraft:spruce_stairs meta keep
 		minecraft:gravel -> minecraft:ice
 		minecraft:cobblestone -> minecraft:snow
 		minecraft:wool -> meta 9
-		use Taiga
-	Redwood Taiga Hills M
-		use Cold Taiga
-	Mega Spruce Taiga
-		use Cold Taiga
-	Savanna
+		use minecraft:taiga
+	minecraft:mutated_redwood_taiga
+		use minecraft:taiga_cold
+	minecraft:redwood_taiga_hills
+		use minecraft:taiga_cold
+	minecraft:savanna
 		minecraft:oak_stairs -> minecraft:acacia_stairs meta keep
 		minecraft:log -> minecraft:log2
 		minecraft:planks -> meta 4
 		minecraft:wool -> meta 4
-	Ice Plains
+	minecraft:ice_flats
 		minecraft:oak_stairs -> minecraft:spruce_stairs meta keep
 		minecraft:gravel -> minecraft:ice
 		minecraft:log -> minecraft:snow
 		minecraft:cobblestone -> minecraft:snow
 		minecraft:planks -> meta 1
 		minecraft:wool -> meta 3
-	Roofed Forest
+	minecraft:roofed_forest
 		minecraft:oak_stairs -> minecraft:dark_oak_stairs meta keep
 		minecraft:log -> minecraft:log2 meta 1
 		minecraft:wool -> minecraft:red_mushroom_block meta 14
 		minecraft:planks -> meta 5
-	MushroomIsland
+	minecraft:mushroom_island
 		minecraft:wool -> minecraft:brown_mushroom_block meta 14
 		minecraft:oak_stairs -> minecraft:red_mushroom_block meta 14
 		minecraft:log -> minecraft:brown_mushroom_block meta 14
@@ -74,7 +74,7 @@
 		minecraft:cobblestone -> minecraft:brown_mushroom_block meta 15
 		minecraft:stone_brick_stairs -> minecraft:brown_mushroom_block meta 15
 		minecraft:stone_stairs -> minecraft:brown_mushroom_block meta 15
-	Mesa
+	minecraft:mesa
 		minecraft:gravel -> minecraft:stained_hardened_clay meta 0
 		minecraft:cobblestone -> minecraft:hardened_clay
 		minecraft:planks -> minecraft:stained_hardened_clay meta 1
@@ -84,6 +84,6 @@
 		minecraft:stone_brick_stairs -> minecraft:hardened_clay
 		minecraft:dirt -> minecraft:stained_hardened_clay meta 14
 		minecraft:wool -> meta 1
-	Ocean
+	minecraft:ocean
 		minecraft:gravel -> minecraft:clay
 		minecraft:wool -> meta 11
