@@ -89,6 +89,7 @@
 		minecraft:wool -> meta 11
 		
 	;test for aether legacy
+aether_legacy
 	aether_legacy:aether_highlands
 		minecraft:gravel -> aether_legacy:enchanted_aether_grass
 		minecraft:cobblestone -> aether_legacy:holystone
