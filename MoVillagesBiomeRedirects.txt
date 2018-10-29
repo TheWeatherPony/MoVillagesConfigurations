@@ -65,3 +65,7 @@ minecraft:mesa
 minecraft:ocean
 	minecraft:frozen_ocean;FrozenOcean;removed from normal World generation in 13w36a
 	minecraft:deep_ocean
+
+;Aether Legacy
+aether_legacy:aether_highlands
+	aether_legacy:aether_highlands
