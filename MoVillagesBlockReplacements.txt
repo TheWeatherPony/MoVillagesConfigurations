@@ -87,3 +87,16 @@
 	minecraft:ocean
 		minecraft:gravel -> minecraft:clay
 		minecraft:wool -> meta 11
+		
+	;test for aether legacy
+	aether_legacy:aether_highlands
+		minecraft:gravel -> aether_legacy:enchanted_aether_grass
+		minecraft:cobblestone -> aether_legacy:holystone
+		minecraft:planks -> aether_legacy:skyroot_plank
+		minecraft:oak_stairs -> aether_legacy:skyroot_stairs
+		minecraft:log -> aether_legacy:aether_log meta 0
+		minecraft:stone_stairs -> aether_legacy:holystone_stairs
+		minecraft:stone_brick_stairs -> aether_legacy:holystone_brick_stairs
+		minecraft:dirt -> aether_legacy:aether_dirt
+		minecraft:wool -> aether_legacy:quicksoil_glass
+		minecraft:torch -> minecraft:air
