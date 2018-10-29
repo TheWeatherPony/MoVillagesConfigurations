@@ -100,3 +100,4 @@
 		minecraft:dirt -> aether_legacy:aether_dirt
 		minecraft:wool -> aether_legacy:quicksoil_glass
 		minecraft:torch -> minecraft:air
+		minecraft:bookshelf -> aether_legacy:skyroot_bookshelf
