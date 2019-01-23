@@ -1,10 +1,9 @@
 ;everything after a ";" is a comment
 
 minecraft:extreme_hills
-	minecraft:smaller_extreme_hills;Extreme Hills Edge;removed from normal World generation in 13w36a
-	minecraft:extreme_hills_with_trees;Extreme Hills+
+	minecraft:smaller_extreme_hills ;Extreme Hills Edge, removed from normal World generation in 13w36a
+	minecraft:extreme_hills_with_trees ;Extreme Hills+
 	minecraft:extreme_hills mutation
-	minecraft:smaller_extreme_hills mutation
 	minecraft:extreme_hills_with_trees mutation
 
 minecraft:swampland
@@ -27,25 +26,23 @@ minecraft:birch_forest
 	
 minecraft:taiga
 	minecraft:taiga mutation
-
-minecraft:redwood_taiga;Mega Taiga
 	minecraft:taiga_hills;TaigaHills
 
-minecraft:redwood_taiga_hills;Mega Taiga Hills
-	minecraft:mutated_redwood_taiga_hills;Redwood Taiga Hills M; aka: Mega Taiga Hills mutation
-
-minecraft:mutated_redwood_taiga;minecraft:redwood_taiga mutation;Mega Spruce Taiga; aka: Mega Taiga mutation
+minecraft:redwood_taiga;Mega Taiga
+	minecraft:redwood_taiga_hills ;Mega Taiga Hills
+	minecraft:redwood_taiga mutation ;Mega Spruce Taiga aka Mega Taiga mutation
+	minecraft:redwood_taiga_hills mutation ;Redwood Taiga Hills M aka Mega Taiga Hills mutation
 
 minecraft:taiga_cold
 	minecraft:taiga_cold_hills
 	minecraft:taiga_cold mutation
 
 minecraft:savanna
-	minecraft:savanna_rock;Savanna Plateau
+	minecraft:savanna_rock ;Savanna Plateau
 	minecraft:savanna mutation
 	minecraft:savanna_rock
 
-minecraft:ice_flats;Ice Plains
+minecraft:ice_flats ;Ice Plains
 	minecraft:ice_mountains
 	minecraft:ice_flats mutation
 	
@@ -56,12 +53,12 @@ minecraft:mushroom_island
 	minecraft:mushroom_island_shore
 
 minecraft:mesa
-	minecraft:mesa_clear_rock;Mesa Plateau
-	minecraft:mesa_rock;Mesa Plateau F
+	minecraft:mesa_clear_rock ;Mesa Plateau
+	minecraft:mesa_rock ;Mesa Plateau F
 	minecraft:mesa mutation
 	minecraft:mesa_clear_rock mutation
 	minecraft:mesa_rock mutation
 
 minecraft:ocean
-	minecraft:frozen_ocean;FrozenOcean;removed from normal World generation in 13w36a
+	minecraft:frozen_ocean ;FrozenOcean, removed from normal World generation in 13w36a
 	minecraft:deep_ocean
