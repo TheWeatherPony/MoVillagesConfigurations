@@ -79,9 +79,9 @@
 		minecraft:gravel -> minecraft:stained_hardened_clay meta 0
 		minecraft:cobblestone -> minecraft:hardened_clay
 		minecraft:planks -> minecraft:stained_hardened_clay meta 1
-		minecraft:oak_stairs -> minecraft:red_sandstone_stairs
+		minecraft:oak_stairs -> minecraft:red_sandstone_stairs meta keep
 		minecraft:log -> minecraft:stained_hardened_clay meta 1
-		minecraft:stone_stairs -> minecraft:red_sandstone_stairs
+		minecraft:stone_stairs -> minecraft:red_sandstone_stairs meta keep
 		minecraft:dirt -> minecraft:stained_hardened_clay meta 14
 		minecraft:wool -> meta 1
 		minecraft:wooden_door -> minecraft:dark_oak_door
