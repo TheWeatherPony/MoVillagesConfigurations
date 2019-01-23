@@ -3,12 +3,13 @@
 	;biome
 		;behaviors (in order)
 	minecraft:extreme_hills
-		minecraft:cobblestone -> minecraft:stone
-		minecraft:log -> minecraft:double_stone_slab
+		minecraft:cobblestone -> minecraft:stone meta 5
+		minecraft:log -> minecraft:stone meta 6
 		minecraft:planks -> minecraft:stonebrick
 		minecraft:oak_stairs -> minecraft:stone_brick_stairs meta keep
-		minecraft:stone_brick_stairs -> minecraft:stone_stairs meta keep
 		minecraft:gravel -> minecraft:brick_block
+		minecraft:wooden_door -> minecraft:spruce_door
+		minecraft:fence -> minecraft:spruce_fence
 		minecraft:wool -> meta 14
 	minecraft:swampland
 		minecraft:gravel -> minecraft:clay
@@ -20,51 +21,52 @@
 		minecraft:planks -> meta 3
 		minecraft:log -> meta 3
 		minecraft:wool -> meta 5
+		minecraft:wooden_door -> minecraft:jungle_door
+		minecraft:fence -> minecraft:jungle_fence
 	minecraft:forest
 		minecraft:gravel -> minecraft:planks
 		minecraft:wool -> meta 8
 	minecraft:birch_forest
-		minecraft:gravel -> minecraft:planks
+		minecraft:gravel -> minecraft:planks meta 2
 		minecraft:oak_stairs -> minecraft:birch_stairs meta keep
 		minecraft:planks -> meta 2
 		minecraft:log -> meta 2
 		minecraft:wool -> meta 0
-		minecraft:gravel -> meta 1
+		minecraft:wooden_door -> minecraft:birch_door
+		minecraft:fence -> minecraft:birch_fence
 	minecraft:taiga
 		minecraft:oak_stairs -> minecraft:spruce_stairs meta keep
 		minecraft:planks -> meta 1
 		minecraft:log -> meta 1
 		minecraft:wool -> meta 12
-	minecraft:redwood_taiga;Mega Taiga
+		minecraft:wooden_door -> minecraft:spruce_door
+		minecraft:fence -> minecraft:spruce_fence
+	minecraft:redwood_taiga ;Mega Taiga
 		minecraft:cobblestone -> minecraft:mossy_cobblestone
 		use minecraft:taiga
 	minecraft:taiga_cold
-		minecraft:oak_stairs -> minecraft:spruce_stairs meta keep
 		minecraft:gravel -> minecraft:ice
-		minecraft:cobblestone -> minecraft:snow
+		minecraft:cobblestone -> minecraft:stone meta 3
 		minecraft:wool -> meta 9
 		use minecraft:taiga
-	minecraft:mutated_redwood_taiga
-		use minecraft:taiga_cold
-	minecraft:redwood_taiga_hills
-		use minecraft:taiga_cold
 	minecraft:savanna
 		minecraft:oak_stairs -> minecraft:acacia_stairs meta keep
 		minecraft:log -> minecraft:log2
 		minecraft:planks -> meta 4
 		minecraft:wool -> meta 4
+		minecraft:wooden_door -> minecraft:acacia_door
+		minecraft:fence -> minecraft:acacia_fence
 	minecraft:ice_flats
-		minecraft:oak_stairs -> minecraft:spruce_stairs meta keep
 		minecraft:gravel -> minecraft:ice
-		minecraft:log -> minecraft:snow
-		minecraft:cobblestone -> minecraft:snow
-		minecraft:planks -> meta 1
 		minecraft:wool -> meta 3
+		use minecraft:taiga
 	minecraft:roofed_forest
 		minecraft:oak_stairs -> minecraft:dark_oak_stairs meta keep
 		minecraft:log -> minecraft:log2 meta 1
 		minecraft:wool -> minecraft:red_mushroom_block meta 14
 		minecraft:planks -> meta 5
+		minecraft:wooden_door -> minecraft:dark_oak_door
+		minecraft:fence -> minecraft:dark_oak_fence
 	minecraft:mushroom_island
 		minecraft:wool -> minecraft:brown_mushroom_block meta 14
 		minecraft:oak_stairs -> minecraft:red_mushroom_block meta 14
@@ -72,18 +74,18 @@
 		minecraft:planks -> minecraft:red_mushroom_block meta 14
 		minecraft:gravel -> minecraft:red_mushroom_block
 		minecraft:cobblestone -> minecraft:brown_mushroom_block meta 15
-		minecraft:stone_brick_stairs -> minecraft:brown_mushroom_block meta 15
 		minecraft:stone_stairs -> minecraft:brown_mushroom_block meta 15
 	minecraft:mesa
 		minecraft:gravel -> minecraft:stained_hardened_clay meta 0
 		minecraft:cobblestone -> minecraft:hardened_clay
 		minecraft:planks -> minecraft:stained_hardened_clay meta 1
-		minecraft:oak_stairs -> minecraft:stained_hardened_clay meta 1
+		minecraft:oak_stairs -> minecraft:red_sandstone_stairs
 		minecraft:log -> minecraft:stained_hardened_clay meta 1
-		minecraft:stone_stairs -> minecraft:hardened_clay
-		minecraft:stone_brick_stairs -> minecraft:hardened_clay
+		minecraft:stone_stairs -> minecraft:red_sandstone_stairs
 		minecraft:dirt -> minecraft:stained_hardened_clay meta 14
 		minecraft:wool -> meta 1
+		minecraft:wooden_door -> minecraft:dark_oak_door
+		minecraft:fence -> minecraft:dark_oak_fence
 	minecraft:ocean
 		minecraft:gravel -> minecraft:clay
 		minecraft:wool -> meta 11
